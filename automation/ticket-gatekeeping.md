@@ -89,7 +89,7 @@ When the bot allows transition to "In Progress", it can optionally auto-generate
    - Add checklist derived from acceptance criteria
    - Link to scaffolded documentation
 
-**Auto-generating requirements with [PRDEngine](https://github.com/krti-commits/PRDEngine):** Instead of copying blank templates, the scaffolding step can invoke PRDEngine to generate a first-draft artifact from the ticket's title, description, and acceptance criteria. PRDEngine assesses complexity and routes to the right tier:
+**Auto-generating requirements with [PRDEngine](https://github.com/kbot-ships/PRDEngine):** Instead of copying blank templates, the scaffolding step can invoke PRDEngine to generate a first-draft artifact from the ticket's title, description, and acceptance criteria. PRDEngine assesses complexity and routes to the right tier:
 - **Lightweight** -- simple features (~1 page)
 - **Standard** -- typical work (~3-5 pages, adds API design and data model)
 - **Comprehensive** -- cross-cutting changes (~8-15 pages)
@@ -251,6 +251,6 @@ Ticket → State Change to "In Progress"
 1. Choose your issue tracker (Linear, Jira, GitHub Issues, GitLab)
 2. Define 2-3 trigger labels (start narrow)
 3. Identify required fields (start with DoD + acceptance criteria)
-4. Build Phase 1 (validation + block) as a webhook listener
+4. Fork the [reference implementation](reference-implementation/) and wire in your tracker's API
 5. Pilot with one team for 2 weeks
 6. Gather feedback, iterate, then roll out

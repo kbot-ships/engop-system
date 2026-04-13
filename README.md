@@ -47,8 +47,8 @@ If the mock or contract is missing, you build plausible outcomes that aren't the
 | Folder | What it is | Start here if... |
 |:-------|:-----------|:-----------------|
 | **[`templates/`](templates/)** | Fill-in-the-blank artifacts for your next feature | You want to use the framework today |
-| **[`case-studies/`](case-studies/)** | Walkthrough of the process applied to a real feature | You want to see what good looks like |
-| **[`automation/`](automation/)** | Blueprint for ticket system gatekeeping | You want to build enforcement tooling |
+| **[`case-studies/`](case-studies/)** | Walkthroughs of the process applied to real features | You want to see what good looks like |
+| **[`automation/`](automation/)** | Blueprint + reference implementation for ticket gatekeeping | You want to build enforcement tooling |
 | **[`decisions/`](decisions/)** | Decision template for adopting the framework | You're leading adoption for your team |
 
 ### Templates
@@ -65,7 +65,7 @@ Each template includes a filled-in example so you can see what good looks like.
 
 ## Tooling
 
-This framework defines **what** to do. [**PRDEngine**](https://github.com/krti-commits/PRDEngine) automates the hardest part: generating the right-sized requirements artifact from a feature description.
+This framework defines **what** to do. [**PRDEngine**](https://github.com/kbot-ships/PRDEngine) automates the hardest part: generating the right-sized requirements artifact from a feature description.
 
 | Template | PRDEngine tier | Output |
 |:---------|:---------------|:-------|
@@ -81,8 +81,8 @@ The [ticket gatekeeping bot](automation/ticket-gatekeeping.md) can invoke PRDEng
 
 **If you're an engineer:** Copy a [template](templates/) for your next feature. Start with the [PRD-lite](templates/prd-lite.md) if requirements feel ambiguous, or the [design note](templates/design-note.md) if you're about to write code.
 
-**If you're a tech lead:** Read the [case study](case-studies/applying-contract-first.md) to see contract-first applied end-to-end. Then review the [decision template](decisions/001-execution-operating-system.md) with your team.
+**If you're a tech lead:** Read the case studies to see contract-first applied end-to-end -- [with a UI](case-studies/applying-contract-first.md) and [without one](case-studies/api-contract-without-ui.md). Then review the [decision template](decisions/001-execution-operating-system.md) with your team.
 
-**If you're building tooling:** The [ticket gatekeeping blueprint](automation/ticket-gatekeeping.md) is the highest-leverage automation target. It enforces this framework at the ticket system level.
+**If you're building tooling:** The [ticket gatekeeping blueprint](automation/ticket-gatekeeping.md) has the design and a [reference implementation](automation/reference-implementation/) you can fork. It enforces this framework at the ticket system level.
 
 ---

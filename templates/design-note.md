@@ -4,7 +4,7 @@
 PURPOSE: Document the technical approach BEFORE coding starts.
 AUDIENCE: Engineers, architects, security reviewers.
 GOAL: Answer "how will we build this?" in 1-2 pages. Focus on impacts and decisions.
-AUTO-GENERATE: PRDEngine (https://github.com/krti-commits/PRDEngine) can generate this
+AUTO-GENERATE: PRDEngine (https://github.com/kbot-ships/PRDEngine) can generate this
 from a feature description. Its "Standard" tier includes API design, data model, and
 security sections that map to this template's structure.
 -->
