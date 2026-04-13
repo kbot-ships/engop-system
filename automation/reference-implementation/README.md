@@ -15,8 +15,7 @@ This implements **Phase 1** from the [gatekeeping blueprint](../ticket-gatekeepi
 ## Quick start
 
 ```bash
-pip install flask  # only dependency beyond stdlib (optional, uses http.server by default)
-python gate.py
+python gate.py                        # no dependencies beyond stdlib
 ```
 
 ## Configuration
@@ -29,7 +28,7 @@ python gate.py
 
 ## Adapting to your tracker
 
-The script includes parsers for Linear, Jira, and GitHub Issues. Each normalizes the webhook payload into a common `TicketEvent` shape. To add your own tracker:
+The script uses Python's built-in `http.server` (no external dependencies). It includes parsers for Linear, Jira, and GitHub Issues, each normalizing the webhook payload into a common `TicketEvent` shape. To add your own tracker:
 
 1. Write a `parse_yourtracker(payload) -> TicketEvent | None` function
 2. Add it to the `PARSERS` dict

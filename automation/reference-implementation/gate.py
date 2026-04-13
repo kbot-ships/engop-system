@@ -11,8 +11,7 @@ Adapt to your issue tracker:
   - GitHub:  action == "edited", issue.state
 
 Usage:
-  pip install flask
-  python gate.py                        # runs on :8090
+  python gate.py                        # runs on :8090 (stdlib only, no deps)
   TRACKER=jira python gate.py           # switch tracker adapter
   GATE_PORT=9000 python gate.py         # custom port
 """

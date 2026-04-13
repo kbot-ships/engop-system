@@ -81,7 +81,7 @@ The [ticket gatekeeping bot](automation/ticket-gatekeeping.md) can invoke PRDEng
 
 **If you're an engineer:** Copy a [template](templates/) for your next feature. Start with the [PRD-lite](templates/prd-lite.md) if requirements feel ambiguous, or the [design note](templates/design-note.md) if you're about to write code.
 
-**If you're a tech lead:** Read the case studies to see contract-first applied end-to-end -- [with a UI](case-studies/applying-contract-first.md) and [without one](case-studies/api-contract-without-ui.md). Then review the [decision template](decisions/001-execution-operating-system.md) with your team.
+**If you're a tech lead:** Read the case studies to see contract-first applied end-to-end -- [with a UI](case-studies/applying-contract-first.md) and [without one](case-studies/api-contract-without-ui.md). Then review the [decision template](decisions/decision-template.md) with your team.
 
 **If you're building tooling:** The [ticket gatekeeping blueprint](automation/ticket-gatekeeping.md) has the design and a [reference implementation](automation/reference-implementation/) you can fork. It enforces this framework at the ticket system level.
 
