@@ -1,4 +1,4 @@
-# PRD Lite: [Feature Name]
+# PRD-lite: [Feature Name]
 
 <!--
 PURPOSE: Define the "why" and "what" in ONE PAGE before UX and design work starts.
@@ -42,7 +42,7 @@ from a feature description. Its "Lightweight" tier maps directly to this templat
 <!--
 EXAMPLE (delete before filling in):
 
-# PRD Lite: Team Member Invitation Flow
+# PRD-lite: Team Member Invitation Flow
 
 ## Problem Statement
 Team admins spend 5-10 minutes per user invitation due to multi-step forms and email confusion. 60% of invites require support intervention because users can't find the invite email or it expires.

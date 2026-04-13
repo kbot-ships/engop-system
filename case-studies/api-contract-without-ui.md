@@ -4,7 +4,7 @@
 
 ---
 
-## The scenario
+## The Scenario
 
 Your team needs to build a **webhook notification system**. When a model deployment completes, external systems get notified via HTTP callback. There is no user interface -- this is a pure API feature consumed by other services and third-party integrations.
 
@@ -96,7 +96,7 @@ Partner B flagged: "We need the `X-Webhook-ID` header for idempotency. If you re
 
 ---
 
-## Layer 3: Traceability
+## Layer 3: Contract
 
 The PRD-lite for this feature:
 
@@ -111,7 +111,7 @@ Each acceptance criterion traces to a specific API endpoint or behavior in the c
 
 ---
 
-## Layer 4: Execution
+## Layer 4: Delivery
 
 The engineer builds to the contract. No ambiguity about:
 - Which endpoints to implement

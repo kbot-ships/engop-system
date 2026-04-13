@@ -54,11 +54,11 @@ Take the output from discovery and decompose it into value streams. Then break t
 
 **Output**: Structured breakdown of *what value gets delivered when*.
 
-### Layer 3: Traceability (Milestones → Requirements → PRD)
+### Layer 3: Contract (Milestones → Requirements → PRD)
 
 **Map milestones to specific requirements, then to acceptance criteria.**
 
-This is the "contract" - testable intent that engineers can build against. The PRD doesn't have to be 50 pages. It just has to be explicit about:
+This is the contract -- testable intent that engineers can build against. The PRD doesn't have to be 50 pages. It just has to be explicit about:
 - What success looks like (acceptance criteria)
 - What the feature does NOT do (non-goals)
 - How the pieces fit together (traceability)
@@ -89,7 +89,7 @@ GET /api/teams/{team_id}/metrics?days=30
 
 **Output**: Lightweight but explicit contract that engineers can build against.
 
-### Layer 4: Execution (Engineers Build to Contract)
+### Layer 4: Delivery (Engineers Build to Contract)
 
 **Engineers receive a PRD with clear acceptance criteria, not an ambiguous ticket.**
 

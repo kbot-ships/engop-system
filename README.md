@@ -29,10 +29,10 @@ Not pervasive, but completely avoidable. The cost is engineering time spent buil
 > Contract-first = UX flow and API contract reviewed together before build starts.
 
 <p align="center">
-  <img src="assets/flow-model.svg" alt="Intent → Design → Execution → Release" width="800"/>
+  <img src="assets/flow-model.svg" alt="Intent → Design → Contract → Delivery" width="800"/>
 </p>
 
-Four layers. Nothing novel. The key constraint: UI must not drive API design in isolation. They're designed as a unit.
+Four layers. Nothing novel. The key constraint: the contract (UX flow + API surface) is reviewed as a unit before build starts.
 
 <p align="center">
   <img src="assets/example-chain.svg" alt="Ticket → UX mock + API contract → Build and review → Outcome" width="820"/>

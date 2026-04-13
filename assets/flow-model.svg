@@ -12,11 +12,11 @@
   <polygon points="398,39 410,45 398,51" fill="#2ECDA7"/>
 
   <rect x="410" y="10" width="160" height="70" rx="10" fill="#2ECDA7" fill-opacity="0.1" stroke="#2ECDA7" stroke-width="1.5"/>
-  <text x="490" y="52" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="600" fill="#2ECDA7">3. Execution</text>
+  <text x="490" y="52" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="600" fill="#2ECDA7">3. Contract</text>
 
   <line x1="582" y1="45" x2="603" y2="45" stroke="#2ECDA7" stroke-width="2"/>
   <polygon points="603,39 615,45 603,51" fill="#2ECDA7"/>
 
   <rect x="615" y="10" width="160" height="70" rx="10" fill="#2ECDA7" fill-opacity="0.1" stroke="#2ECDA7" stroke-width="1.5"/>
-  <text x="695" y="52" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="600" fill="#2ECDA7">4. Release</text>
+  <text x="695" y="52" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="600" fill="#2ECDA7">4. Delivery</text>
 </svg>
