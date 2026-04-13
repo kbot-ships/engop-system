@@ -65,15 +65,15 @@ Each template includes a filled-in example so you can see what good looks like.
 
 ## Tooling
 
-This framework defines **what** to do. [**PRDEngine**](https://github.com/krti-commits/PRDEngine) automates the hardest part: generating the requirements artifacts.
+This framework defines **what** to do. [**PRDEngine**](https://github.com/krti-commits/PRDEngine) automates the hardest part: generating the right-sized requirements artifact from a feature description.
 
-| Framework artifact | PRDEngine tier | What happens |
-|:-------------------|:---------------|:-------------|
-| [PRD-lite](templates/prd-lite.md) | Lightweight (~1 page) | PRDEngine assesses your feature and generates a right-sized PRD |
-| [Design note](templates/design-note.md) | Standard (~3-5 pages) | PRDEngine adds API design, data model, security sections as needed |
-| Full PRD for complex work | Comprehensive / Enterprise | PRDEngine scales up to 15+ pages with traceability matrices and ADR stubs |
+| Template | PRDEngine tier | Output |
+|:---------|:---------------|:-------|
+| [PRD-lite](templates/prd-lite.md) | Lightweight | ~1 page scope with problem, criteria, and non-goals |
+| [Design note](templates/design-note.md) | Standard | ~3-5 pages with API design, data model, security |
+| [UX mock](templates/ux-mock.md) | Comprehensive+ | ~8-15 pages with user personas, cross-service impact |
 
-The [ticket gatekeeping automation](automation/ticket-gatekeeping.md) can use PRDEngine to auto-generate stubs when work starts, closing the loop between enforcement and artifact creation.
+The [ticket gatekeeping bot](automation/ticket-gatekeeping.md) can invoke PRDEngine to auto-generate these stubs when work starts -- enforcement and artifact creation in one step.
 
 ---
 

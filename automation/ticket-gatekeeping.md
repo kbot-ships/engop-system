@@ -89,7 +89,10 @@ When the bot allows transition to "In Progress", it can optionally auto-generate
    - Add checklist derived from acceptance criteria
    - Link to scaffolded documentation
 
-**Auto-generating requirements with PRDEngine:** Instead of copying blank templates, the scaffolding step can invoke [PRDEngine](https://github.com/krti-commits/PRDEngine) to generate a right-sized PRD from the ticket's title, description, and acceptance criteria. PRDEngine assesses complexity across 7 dimensions and routes to the appropriate tier (Lightweight for simple features, Standard for typical work, Comprehensive for cross-cutting changes). This turns the auto-stub from an empty template into a first-draft artifact the engineer can refine.
+**Auto-generating requirements with [PRDEngine](https://github.com/krti-commits/PRDEngine):** Instead of copying blank templates, the scaffolding step can invoke PRDEngine to generate a first-draft artifact from the ticket's title, description, and acceptance criteria. PRDEngine assesses complexity and routes to the right tier:
+- **Lightweight** -- simple features (~1 page)
+- **Standard** -- typical work (~3-5 pages, adds API design and data model)
+- **Comprehensive** -- cross-cutting changes (~8-15 pages)
 
 **Important:** Scaffolding should feel like helpful automation, not bureaucratic overhead. If engineers find it burdensome, simplify or make it opt-in.
 
